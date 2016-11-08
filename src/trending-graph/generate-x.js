@@ -10,7 +10,7 @@ module.exports = (typeX, typeY, unit)=> {
     label: platform,
     type: typeX,
     values: generateYArray(yArrayLength, typeY, unit),
-    media: generateXMedia(platform), // generate media
+    media: generateXMedia(platform, typeX), // generate media
     total: faker.random.number()
   }
 }
