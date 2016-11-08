@@ -1,5 +1,5 @@
 //config
-const PORT = process.env.NODE_PORT || 3010
+const PORT = process.env.PORT || 3010
 //server
 const http = require('http')
 const handleRequest = require('./src/handle-request')
